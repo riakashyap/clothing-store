@@ -41,18 +41,17 @@ cd clothing-store-cart
 ```
 2. **Open with Live Server**
 
-Make sure you have the Live Server extension installed in VS Code.
-
+```plaintext
+Make sure you have the **Live Server** extension installed in VS Code.
 Right-click on index.html
-
 Select Open with Live Server
+```
 
 3. **Access the App**
-
+```plaintext
 Visit http://127.0.0.1:5500/index.html in your browser
-
 Click the cart icon to visit cart.html
-
+```
 ---
 
 ## 🧠 Tech Stack
