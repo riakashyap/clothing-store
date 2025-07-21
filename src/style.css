@@ -33,6 +33,7 @@ a{
     color: white;
     padding: 25px 60px;
     margin-bottom: 30px;
+    align-items: center;
 }
 
 .cart{
@@ -64,6 +65,7 @@ a{
     grid-template-columns: repeat(4, 223px);
     gap: 30px;
     justify-self: center;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -172,3 +174,32 @@ a{
     border-radius: 4px;
     padding: 3px 6px;
 }
+
+.label-container {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.label-container h2 {
+  margin-bottom: 15px;
+}
+
+.label-container button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.checkout {
+  background-color: green;
+  color: white;
+}
+
+.removeAll {
+  background-color: crimson;
+  color: white;
+}
+
